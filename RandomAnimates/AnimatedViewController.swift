@@ -9,18 +9,23 @@ import UIKit
 import SpringAnimation
 
 final class AnimatedViewController: UIViewController {
-
-    @IBOutlet weak var animatedView: UIView!
-    @IBOutlet weak var buttonForAnimation: UIButton!
+    
+    @IBOutlet weak var springAnimationView: SpringView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        animatedView.layer.cornerRadius = 15
-        buttonForAnimation.layer.cornerRadius = 15
+
     }
 
-    @IBAction func buttonForAnimationPressed(_ sender: SpringButton) {
+
+    @IBAction func runSpringAnimation(_ sender: SpringButton) {
+        springAnimationView.animation = "fall"
+        springAnimationView.curve = "easeInOut"
+        springAnimationView.animate()
         
+        sender.animation = "pop"
+        sender.duration = 3
+        sender.animate()
     }
     
 }
