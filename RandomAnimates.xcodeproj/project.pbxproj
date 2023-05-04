@@ -62,17 +62,65 @@
 		48F6C0082A0101450076E7D2 /* RandomAnimates */ = {
 			isa = PBXGroup;
 			children = (
-				48F6C0092A0101450076E7D2 /* AppDelegate.swift */,
-				48F6C00B2A0101450076E7D2 /* SceneDelegate.swift */,
-				48F6C00D2A0101450076E7D2 /* AnimatedViewController.swift */,
-				48F6C0202A0117250076E7D2 /* Animation.swift */,
-				48F6C0222A01184F0076E7D2 /* DataStore.swift */,
-				48F6C00F2A0101450076E7D2 /* Main.storyboard */,
-				48F6C0122A0101460076E7D2 /* Assets.xcassets */,
-				48F6C0142A0101460076E7D2 /* LaunchScreen.storyboard */,
-				48F6C0172A0101460076E7D2 /* Info.plist */,
+				48F6C0282A039F6D0076E7D2 /* App */,
+				48F6C0242A039F1A0076E7D2 /* ViewControllers */,
+				48F6C0262A039F3C0076E7D2 /* Models */,
+				48F6C0252A039F2D0076E7D2 /* DataStore */,
+				48F6C0272A039F4C0076E7D2 /* Storyboards */,
+				48F6C0292A039F7E0076E7D2 /* Recources */,
 			);
 			path = RandomAnimates;
+			sourceTree = "<group>";
+		};
+		48F6C0242A039F1A0076E7D2 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				48F6C00D2A0101450076E7D2 /* AnimatedViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		48F6C0252A039F2D0076E7D2 /* DataStore */ = {
+			isa = PBXGroup;
+			children = (
+				48F6C0222A01184F0076E7D2 /* DataStore.swift */,
+			);
+			path = DataStore;
+			sourceTree = "<group>";
+		};
+		48F6C0262A039F3C0076E7D2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				48F6C0202A0117250076E7D2 /* Animation.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		48F6C0272A039F4C0076E7D2 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				48F6C00F2A0101450076E7D2 /* Main.storyboard */,
+				48F6C0142A0101460076E7D2 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		48F6C0282A039F6D0076E7D2 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				48F6C0092A0101450076E7D2 /* AppDelegate.swift */,
+				48F6C00B2A0101450076E7D2 /* SceneDelegate.swift */,
+				48F6C0172A0101460076E7D2 /* Info.plist */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		48F6C0292A039F7E0076E7D2 /* Recources */ = {
+			isa = PBXGroup;
+			children = (
+				48F6C0122A0101460076E7D2 /* Assets.xcassets */,
+			);
+			path = Recources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -305,7 +353,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 88ACA6753P;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = RandomAnimates/Info.plist;
+				INFOPLIST_FILE = RandomAnimates/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -336,7 +384,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 88ACA6753P;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = RandomAnimates/Info.plist;
+				INFOPLIST_FILE = RandomAnimates/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
